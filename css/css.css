@@ -1,0 +1,12 @@
+.deskripsi {
+    color : white;
+    background-color: gray;
+    font-size: 40px;
+}
+
+#container {
+    background-color: gainsboro;
+    color:red;
+    margin:100px;
+    padding: 100px;
+}

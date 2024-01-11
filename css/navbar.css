@@ -1,0 +1,124 @@
+body {
+    font-family: 'Poppins';
+    margin:0;
+}
+
+h1, h2, p{
+    margin:0
+}
+
+#logo {
+    color : black;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding-block: 16px;
+}
+
+#navigation {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    list-style: none;
+    font-weight: bold;
+}
+
+#button {
+    padding-inline: 24px;
+    padding-block: 8px;
+    border-radius: 0px;
+    background-color: white;
+    font-weight: bold;
+    border : 2px solid black;
+}
+
+#hire {
+    padding-inline: 30px;
+    padding-block: 15px;
+    border-radius: 0px;
+    background-color: #F96E46;
+    font-weight: bold;
+    border : none
+}
+
+#projects {
+    padding-inline: 30px;
+    padding-block: 15px;
+    border-radius: 0px;
+    font-weight: bold;
+    border : none
+}
+
+#button:hover {
+    background-color: gainsboro;
+}
+
+#content{
+    display: flex;
+}
+
+#left-content {
+    /* background-color: gray; */
+    width: 50%;
+}
+
+#right-content {
+    background-color: blue;
+    background-image: url("/assets/casual-close-up.jpg");
+    background-repeat: no-repeat;
+    background-size:700px;
+    width: 50%;
+
+}
+
+#button-group, #experience {
+    margin-top: 16px;
+}
+
+#projectAndContact {
+    margin-top: 16px;
+    display: flex;
+    gap : 5rem;
+}
+
+#footer {
+    display: flex;
+    margin-top:16px;
+    background-color: black;
+    padding: 50px;
+    color : white;
+    gap : 100px;
+}
+
+#knowMore {
+    padding-inline: 30px;
+    padding-block: 15px;
+    border-radius: 0px;
+    font-weight: bold;
+    border : none;
+    background-color: yellow;
+    margin-top: 16px;
+}
+
+#list-brand li {
+    list-style: none;
+}
+
+#detail-list-brand {
+    display: flex;
+    border-bottom: 1px solid gray;
+    margin-bottom: 16px;
+}
+
+#title-brand {
+    width: 100%;
+}
+
+
+
+
+

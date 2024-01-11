@@ -1,0 +1,21 @@
+#container {
+    background-color:
+    width : 200px;
+    height: 200px;
+}
+
+#cu-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-cu {
+    background-color: gray;
+    padding: 10px;
+}
+
+#box-cu {
+    padding: 10px;
+    background-color: gray;
+}
